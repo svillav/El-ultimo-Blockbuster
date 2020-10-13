@@ -5,7 +5,6 @@
 }
 
 .page-header section {
-    /*border: 1px solid red;*/
     display: inline-flex;
     position: relative;
     margin-top: 10px;
@@ -13,7 +12,6 @@
 }
 
 .page-header section i {
-    /*border: 1px solid blue;*/
     color: white;
     font-size: 50px;
     margin-top: 60px;
@@ -21,7 +19,6 @@
 }
 
 .page-header section p {
-    /*border: 1px solid green;*/
     color: gainsboro;
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,24 +33,18 @@
     color: white;
 }
 
-
-/*-------------  Nav-bar  ---------------*/
-
 .nav-bar {
-    /*position: relative;*/
     height: 70px;
     width: 100%;
 }
 
 .nav-bar ul {
-    /*position: relative;*/
     padding: 0px;
     margin-top: 0px;
     list-style-type: none;
 }
 
 .nav-bar ul li {
-    /*position: absolute;*/
     display: inline-block;
     background-image: linear-gradient(to top, rgb(7, 15, 7), rgb(22, 66, 29));
     padding: 20px 210px;

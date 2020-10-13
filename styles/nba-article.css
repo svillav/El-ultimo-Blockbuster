@@ -24,9 +24,9 @@
 }
 
 .title-section h2 {
-    color: rgb(119, 119, 119);
+    color: rgb(180, 180, 180);
     font-family: Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
     font-size: 20px;
 }
 
@@ -48,40 +48,40 @@
     font-size: 20px;
 }
 
-    #bookmark {
-        padding: 9px;
-        color: rgb(17, 85, 28);
-        height: 16px;
-        border: 2px solid rgb(17, 85, 28);
-        border-radius: 100px;
-    }
+#nba-bookmark {
+    padding: 9px;
+    color: rgb(17, 85, 28);
+    height: 16px;
+    border: 2px solid rgb(17, 85, 28);
+    border-radius: 100px;
+}
 
-    #facebook { 
-        padding: 9px;
-        color: white;
-        background-color: rgb(53, 67, 148);
-        height: 16px;
-        border: 2px solid rgb(53, 67, 148);
-        border-radius: 100px;
-    }
+#nba-facebook { 
+    padding: 9px;
+    color: white;
+    background-color: rgb(53, 67, 148);
+    height: 16px;
+    border: 2px solid rgb(53, 67, 148);
+    border-radius: 100px;
+}
 
-    #twitter {
-        padding: 9px;
-        color: white;
-        background-color: rgb(28, 137, 209);
-        height: 16px;
-        border: 2px solid rgb(28, 137, 209);
-        border-radius: 100px;
-    }
+#nba-twitter {
+    padding: 9px;
+    color: white;
+    background-color: rgb(28, 137, 209);
+    height: 16px;
+    border: 2px solid rgb(28, 137, 209);
+    border-radius: 100px;
+}
 
-    #envelope {
-        padding: 9px;
-        color: white;
-        background-color: rgb(175, 0, 0);
-        height: 16px;
-        border: 2px solid rgb(175, 0, 0);
-        border-radius: 100px;
-    }
+#nba-envelope {
+    padding: 9px;
+    color: white;
+    background-color: rgb(175, 0, 0);
+    height: 16px;
+    border: 2px solid rgb(175, 0, 0);
+    border-radius: 100px;
+}
 
 .image {
     position: relative;

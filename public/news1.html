@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimo Blockbuster</title>
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/bb-article.css">
     <script src="https://kit.fontawesome.com/d4696b58fb.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/70ee0c4381.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="page-header">
         <section>
-            <p><span class="rr">ЯR</span><span class="news">news</span></p>
+            <p><span class="rr">ЯR</span> <span class="news">news</span></p>
             <i class="fas fa-space-shuttle"></i>
         </section>
         <nav class="nav-bar">
@@ -25,17 +26,14 @@
         <header>
             <a id="especiales" href="https://www.xataka.com/categoria/especiales">ESPECIALES</a>
             <div class="icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-flipboard"></i>
-                <i class="far fa-envelope"></i>
+                <a href="https://www.facebook.com/dialog/feed?app_id=355823546895&redirect_uri=https://www.xataka.com/especiales/asi-muere-icono-ocaso-ultimo-blockbuster-espana-contado-dentro-1%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&link=https://www.xataka.com/especiales/asi-muere-icono-ocaso-ultimo-blockbuster-espana-contado-dentro-1%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb"><i id="bb-facebook" class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/intent/tweet?url=https://www.xataka.com/p/217885%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=As%C3%AD%20muere%20un%20icono%3A%20el%20ocaso%20del%20%C3%BAltimo%20Blockbuster%20de%20Espa%C3%B1a%2C%20contado%20desde%20dentro&via=xataka"><i id="bb-twitter" class="fab fa-twitter"></i></a>
+                <a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=As%C3%AD%20muere%20un%20icono%3A%20el%20ocaso%20del%20%C3%BAltimo%20Blockbuster%20de%20Espa%C3%B1a%2C%20contado%20desde%20dentro&url=https%3A%2F%2Fwww.xataka.com%2Fespeciales%2Fasi-muere-icono-ocaso-ultimo-blockbuster-espana-contado-dentro-1%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb"><i id="bb-flipboard" class="fab fa-flipboard"></i></a>
+                <a href="https://support.microsoft.com/es-es/office/configurar-el-correo-electr%C3%B3nico-en-la-aplicaci%C3%B3n-correo-para-windows-10-7ff79e8b-439b-4b47-8ff9-3f9a33166c60"><i id="bb-envelope" class="far fa-envelope"></i></a>
             </div>
             <h1>Así muere un icono: el ocaso del último Blockbuster de España, contado desde dentro</h1>
-            <figure>
-                <img src="assets/bb-image.jpg" alt="Blockbuster Drawing" title="Blockbuster Drawing">
-                <figcaption>Una versión anterior de este artículo se publicó en octubre de 2019</figcaption>    
-            </figure>
         </header>
+        <figcaption>Una versión anterior de este artículo se publicó en octubre de 2019</figcaption>
         <main>
             <article>
                 <p>
@@ -86,7 +84,7 @@
                     de Blockbuster en esos últimos años de vida. A día de hoy, se mantienen en 
                     contacto con un grupo de Facebook con otros ex-empleados.
                 </p>
-                <img src="assets/jose_gonzalez.png" alt="">
+                <img id="jose-gonzalez" src="../assets/jose_gonzalez.png" alt="Jose Gonzalez">
                 <p>
                     <b>José fue una de las personas que echó el cierre 
                     de Blockbuster por última vez y para siempre</b>. 
@@ -108,13 +106,15 @@
                     nosotros, teníamos la mayoría 18 años", nos cuenta José para este 
                     reportaje.
                 </p>
-                <iframe src="https://www.youtube.com/watch?v=EmH3lHKBboo" frameborder="0"></iframe>
-                <i>
-                    “La tienda de Viriato era la más "grosa", por decirlo así, mucha clientela era de 
-                    calidad y multicultural, porque es la zona puerto de la ciudad. Era la tienda 
-                    principal, por encima de todas las demás; aparte de la oficina, tenía la 
-                    mercancía que se derivaba a otras tiendas".
-                </i>
+                <iframe src="https://youtu.be/TMBrfQ6sApo" frameborder="0"></iframe>
+                <div id="video-foot">
+                    <i>
+                        “La tienda de Viriato era la más "grosa", por decirlo así, mucha clientela era de 
+                        calidad y multicultural, porque es la zona puerto de la ciudad. Era la tienda 
+                        principal, por encima de todas las demás; aparte de la oficina, tenía la 
+                        mercancía que se derivaba a otras tiendas".
+                    </i>
+                </div>
                 <p>
                     Este videoclub del que habla José <b>sería el último Blockbuster en cerrar 
                     sus puertas</b>.
@@ -145,7 +145,7 @@
                     más o menos con un mes antes de antelación a la 
                     primera encargada y a mí”.
                 </p>
-                <img src="assets/beatriz_baez.png" alt="">
+                <img id="beatriz-baez" src="../assets/beatriz_baez.png" alt="Beatriz Baez">
                 <p>
                     <b>A lo largo de los dos años que estuvo trabajando en 
                     Blockbuster no notó un gran decrecimiento del 
@@ -155,19 +155,23 @@
                     misma cantidad de socios que el Blockbuster de Viriato, pero veía que el 
                     negocio iba bien.
                 </p>
-                <div>
-                    <i>
-                        “La explicación que nos dieron fue que Grupo Número 1 tenía comprada la 
-                        franquicia a la península y al cerrar todas las de allí salía muy caro pagar la 
-                        franquicia directamente al Blockbuster extranjero, eso es lo que nos dijeron 
-                        pero no sé si será cierto o no.”
-                    </i>
-                    <i>
-                        “Las compañeras lloramos en el cierre, sobre todo porque cuando ya 
-                        estábamos con las puertas cerradas recogiendo todo lo que había quedado 
-                        para mandarlo a otro videoclub, los socios que eran fijos pasaban a despedirse 
-                        de nosotras y nos dio muchísima pena.”
-                    </i>
+                <div id="italic-footer-text">
+                    <p>
+                        <i>
+                            “La explicación que nos dieron fue que Grupo Número 1 tenía comprada la 
+                            franquicia a la península y al cerrar todas las de allí salía muy caro pagar la 
+                            franquicia directamente al Blockbuster extranjero, eso es lo que nos dijeron 
+                            pero no sé si será cierto o no.”
+                        </i>
+                    </p>
+                    <p>
+                        <i>
+                            “Las compañeras lloramos en el cierre, sobre todo porque cuando ya 
+                            estábamos con las puertas cerradas recogiendo todo lo que había quedado 
+                            para mandarlo a otro videoclub, los socios que eran fijos pasaban a despedirse 
+                            de nosotras y nos dio muchísima pena.”
+                        </i>
+                    </p>                                
                 </div>
             </article>
         </main>
