@@ -1,0 +1,73 @@
+.page-header {
+    position: static;
+    background-image: linear-gradient(rgb(20, 34, 22), rgb(15, 51, 26)); 
+    height: 250px;
+}
+
+.page-header section {
+    /*border: 1px solid red;*/
+    display: inline-flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 39%;
+}
+
+.page-header section i {
+    /*border: 1px solid blue;*/
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 17px;
+}
+
+.page-header section p {
+    /*border: 1px solid green;*/
+    color: gainsboro;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rr {
+    color: rgb(218, 0, 0);
+    font-size: 70px;
+}
+
+.news {
+    color: white;
+}
+
+
+/*-------------  Nav-bar  ---------------*/
+
+.nav-bar {
+    /*position: relative;*/
+    height: 70px;
+    width: 100%;
+}
+
+.nav-bar ul {
+    /*position: relative;*/
+    padding: 0px;
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    /*position: absolute;*/
+    display: inline-block;
+    background-image: linear-gradient(to top, rgb(7, 15, 7), rgb(22, 66, 29));
+    padding: 20px 210px;
+    text-align: center;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 22px;
+    font-family: Georgia, serif;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    font-size: 23px;
+}
